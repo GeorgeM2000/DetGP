@@ -1,7 +1,7 @@
 # DetGP
 
 
-This repository contains source code to reproduce the results of DetGP: **D**ynamic **E**mbedding on **T**extual Networks via a **G**aussian **P**rocess.
+This repository contains the source code to reproduce the results of DetGP: **D**ynamic **E**mbedding on **T**extual Networks via a **G**aussian **P**rocess.
 
 Here is the link to our paper:
 * [*Dynamic Embedding on Textual Networks via a Gaussian Process*](https://arxiv.org/abs/1910.02187) (AAAI 2020)
@@ -28,7 +28,7 @@ To reproduce the node classification results of DetGP, run the command:
 python train_node_classify.py
 ```
 
-The parameters for experiments can be set in `config.py`, *e.g.*, the choice of datasets, the train-test split ratios.
+The parameters for the experiments can be set in `config.py`, *e.g.*, the choice of datasets, the train-test split ratios.
 
 ## Citation 
 Please cite our AAAI 2020 paper if you found the code useful.
